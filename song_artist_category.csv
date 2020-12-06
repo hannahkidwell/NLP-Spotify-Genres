@@ -79,11 +79,19 @@ positions,Ariana Grande,pop
 Therefore I Am,Billie Eilish,pop
 Levitating (feat. DaBaby),Dua Lipa,pop
 Dakiti,Bad Bunny,pop
+<<<<<<< HEAD
 Heat Waves,Glass Animals,pop
 WITHOUT YOU,The Kid LAROI,pop
 Coco (feat. DaBaby),24kGoldn,pop
 Safe With Me (with Audrey Mika),Gryffin,pop
 Call My Friends,Shawn Mendes,pop
+=======
+Teach Me How To Love,Shawn Mendes,pop
+Heat Waves,Glass Animals,pop
+Coco (feat. DaBaby),24kGoldn,pop
+Safe With Me (with Audrey Mika),Gryffin,pop
+WITHOUT YOU,The Kid LAROI,pop
+>>>>>>> 6d54b95c80ba81f0465880d4fe0331f191f49268
 Levitating (feat. DaBaby),Dua Lipa,mood
 The Best Days (feat. Tabitha),Sam Feldt,mood
 Love Not War (The Tampa Beat),Jason Derulo,mood
@@ -109,7 +117,11 @@ Buss It,Erica Banks,mood
 Bossa Nova (feat. Tee Grizzley),Kash Doll,mood
 34+35,Ariana Grande,mood
 Like That (feat. Gucci Mane),Doja Cat,mood
+<<<<<<< HEAD
 Just the Two of Us (feat. Bill Withers),"Grover Washington, Jr.",decades
+=======
+Woman in Love,Barbra Streisand,decades
+>>>>>>> 6d54b95c80ba81f0465880d4fe0331f191f49268
 Baby Can I Hold You,Tracy Chapman,decades
 I Still Haven't Found What I'm Looking For - Remastered 2007,U2,decades
 What's Love Got to Do with It,Tina Turner,decades
@@ -142,18 +154,31 @@ PRACTICE,DaBaby,hiphop
 Fallen Blixkys,22Gz,hiphop
 No Negotiations,Sheff G,hiphop
 TRAGIC (feat. Youngboy Never Broke Again & Internet Money),The Kid LAROI,hiphop
+<<<<<<< HEAD
 Whoopty,CJ,hiphop
 Like Me (feat. iann dior),$NOT,hiphop
+=======
+Like Me (feat. iann dior),$NOT,hiphop
+Quicksand,Morray,hiphop
+>>>>>>> 6d54b95c80ba81f0465880d4fe0331f191f49268
 You’re Mines Still (feat. Drake),Yung Bleu,hiphop
 Letter 2 U,J.I the Prince of N.Y,hiphop
 Coco (feat. DaBaby),24kGoldn,hiphop
 DOORS UNLOCKED (feat. Ty Dolla $ign & Polo G),Murda Beatz,hiphop
 WRONG (feat. Lil Mosey),The Kid LAROI,hiphop
+<<<<<<< HEAD
 Many Men (Wish Death),50 Cent,hiphop
 Public Service Announcement (Interlude),JAY-Z,hiphop
 Stop Being Greedy,DMX,hiphop
 Dipset Anthem,The Diplomats,hiphop
 "Ante Up (feat. Busta Rhymes, Teflon & Remi Martin) - Remix",M.O.P.,hiphop
+=======
+POWER,Kanye West,hiphop
+Roman's Revenge,Nicki Minaj,hiphop
+No Hands (feat. Roscoe Dash & Wale),Waka Flocka Flame,hiphop
+Run This Town,JAY-Z,hiphop
+Black and Yellow,Wiz Khalifa,hiphop
+>>>>>>> 6d54b95c80ba81f0465880d4fe0331f191f49268
 Body,Megan Thee Stallion,hiphop
 Buss It,Erica Banks,hiphop
 Bossa Nova (feat. Tee Grizzley),Kash Doll,hiphop
@@ -219,11 +244,19 @@ Purple Hat,Sofi Tukker,workout
 Heart Of Glass (Live from the iHeart Festival),Miley Cyrus,workout
 Fever,Dua Lipa,workout
 Higher Love,Kygo,workout
+<<<<<<< HEAD
 Do It All Over (feat. Marc E. Bassy),Cheat Codes,workout
 Wonder,Shawn Mendes,workout
 One Whole Day (feat. Wiz Khalifa),Dixie D’Amelio,workout
 Prisoner (feat. Dua Lipa),Miley Cyrus,workout
 Donuts (feat. Yung Bae),kenzie,workout
+=======
+Prisoner (feat. Dua Lipa),Miley Cyrus,workout
+Donuts (feat. Yung Bae),kenzie,workout
+Safe With Me (with Audrey Mika),Gryffin,workout
+Monster (Shawn Mendes & Justin Bieber),Shawn Mendes,workout
+Love Not War (The Tampa Beat),Jason Derulo,workout
+>>>>>>> 6d54b95c80ba81f0465880d4fe0331f191f49268
 Mad World,Timmy Trumpet,workout
 Energy,Stace Cadet,workout
 Goosebumps,HVME,workout
@@ -239,11 +272,18 @@ Can’t Imagine,Shawn Mendes,chill
 Better Days (feat. Justin Timberlake),Ant Clemons,chill
 Umbrella,Duncan Laurence,chill
 Angels Like You,Miley Cyrus,chill
+<<<<<<< HEAD
 The Screen,Oruam,chill
+=======
+>>>>>>> 6d54b95c80ba81f0465880d4fe0331f191f49268
 Alabora,Beyhude,chill
 Swim,COLIN,chill
 All I Ever Wanted,Misc.Inc,chill
 Follow Me,SoN,chill
+<<<<<<< HEAD
+=======
+Schwimmend,Karl Rosskopf,chill
+>>>>>>> 6d54b95c80ba81f0465880d4fe0331f191f49268
 dreamin',53 Thieves,chill
 I Need U,yaeow,chill
 homebody,Kamal.,chill
@@ -304,8 +344,13 @@ Late in the Afternoon,Project Kronos,sleep
 Placidity - Studio Edit,SARAB,sleep
 Lucent Path,NAYAT,sleep
 Nada,Clarissa Bitar,sleep
+<<<<<<< HEAD
 Na Na - Tommie Sunshine & Disco Fries Remix,Rosette,party
 Moments,D.O.D,party
+=======
+Someone Like You (feat. Gia Koka) - Azello Remix,DJ D-Sol,party
+NOPUS,Eric Prydz,party
+>>>>>>> 6d54b95c80ba81f0465880d4fe0331f191f49268
 Techno Prank,Dubdogz,party
 Enough Of You,Tujamo,party
 Deep Down Low,Valentino Khan,party
@@ -394,16 +439,27 @@ Kings,Bailo,edm_dance
 TIKTOK,BLVK JVCK,edm_dance
 Operator Bludgeoning,Chee,edm_dance
 Chicane - Kumarion Remix,QUIX,edm_dance
+<<<<<<< HEAD
+=======
+Run,Steny,edm_dance
+Home,Solomun,edm_dance
+Trapdoor,Gorgon City,edm_dance
+Need To Feel Loved - Tinlicker Remix,Reflekt,edm_dance
+Enchantment,Nora En Pure,edm_dance
+>>>>>>> 6d54b95c80ba81f0465880d4fe0331f191f49268
 Believer (feat. Wynter Gordon) - Radio Edit,Freemasons,edm_dance
 Blue (Da Ba Dee) - Gabry Ponte Video Edit,Eiffel 65,edm_dance
 Every Word (feat. Daniella) - Wendel Kos Radio Edit,Ercola,edm_dance
 Fight For You - Sultan & Ned Shephard Remix Radio Edit,Morgan Page,edm_dance
 Infinity - Klaas Vocal Mix,Guru Josh Project,edm_dance
+<<<<<<< HEAD
 Alive,PAX,edm_dance
 Deep End - SIDEPIECE Remix,John Summit,edm_dance
 Pop That,Shermanology,edm_dance
 Get Stupid,Cloonee,edm_dance
 The Answer (featuring Arthur Baker & Victor Simonelli),Chris Lake,edm_dance
+=======
+>>>>>>> 6d54b95c80ba81f0465880d4fe0331f191f49268
 Words Ain't Enough,Tessa Violet,dinner
 I’m Okay Though,Sara Kays,dinner
 Take It With Me,S. Carey,dinner
@@ -438,7 +494,11 @@ Ke Nako,Bokani Dyer,jazz
 Welcome to the Hills,Yussef Dayes,jazz
 Nuda Sorgente,Lorenzo Morresi,jazz
 Floating Island,Matthew Halsall,jazz
+<<<<<<< HEAD
 Não Tem Nada Não,Kaidi & NK-OK,jazz
+=======
+Não Tem Nada Não Jazz,Kaidi & NK-OK,jazz
+>>>>>>> 6d54b95c80ba81f0465880d4fe0331f191f49268
 I Think It's Going to Rain Today,Lucia Cadotsch,jazz
 ignorance is bliss,Kei Matsumaru,jazz
 Tidal,Nicole McCabe,jazz
@@ -629,6 +689,7 @@ La Canción de la Efe,Thalia,family
 El Valiente Martin,Atención Atención,family
 De La Luna Al Sol,El David Aguilar,family
 The Moon Song,Mi Sobrino Memo,family
+<<<<<<< HEAD
 Como La Flor,Selena,latin
 Dame Un Beso,Selena y los Dinos,latin
 Amor Prohibido,Selena,latin
@@ -649,11 +710,36 @@ Lento,Mr Eazi,latin
 Más De La Una,Piso 21,latin
 Te Olvidare,TINI,latin
 No Me Acostumbro,Wisin,latin
+=======
+LA NOCHE DE ANOCHE,Bad Bunny,latin
+La Nota,Manuel Turizo,latin
+Dakiti,Bad Bunny,latin
+BICHOTA,KAROL G,latin
+Chica Ideal,Sebastian Yatra,latin
+Ponte Pa' Mi,Justin Quiles,latin
+TE MUDASTE,Bad Bunny,latin
+La Nota,Manuel Turizo,latin
+Mi Niña,Wisin,latin
+BICHOTA,KAROL G,latin
+>>>>>>> 6d54b95c80ba81f0465880d4fe0331f191f49268
 s a l u d o s,KORDELYA,latin
 Lotería,Sarah Silva,latin
 Qué Vas A Hacer?,XAXO,latin
 Te bloqueo,Naicok,latin
 Vámonos,Nobeat,latin
+<<<<<<< HEAD
+=======
+Chunti,Beach Goons,latin
+s a l u d o s,KORDELYA,latin
+Oscuridad,Jasper Bones,latin
+Drown,Cuco,latin
+No Te Vayas with Jane,Danto,latin
+Valió la Pena - Salsa Version,Marc Anthony,latin
+A Puro Dolor,Son By Four,latin
+Amores como el nuestro (Salsa),Jerry Rivera,latin
+La Bilirrubina,Juan Luis Guerra 4.40,latin
+Eres Mi Sueño - Salsa,Carlo Supo,latin
+>>>>>>> 6d54b95c80ba81f0465880d4fe0331f191f49268
 Budum,Jada Kingdom,caribbean
 Lighter,Tarrus Riley,caribbean
 Call Me If,Dexta Daps,caribbean
@@ -715,10 +801,17 @@ Standing on the Edge of Summer,Thursday,punk
 Never Meant,American Football,punk
 Action & Action,The Get Up Kids,punk
 hole in the bottle (with Shania Twain),Kelsea Ballerini,country
+<<<<<<< HEAD
 One Of Them Girls,Lee Brice,country
 Down To One,Luke Bryan,country
 GOOD TIME,Niko Moon,country
 Forever After All,Luke Combs,country
+=======
+Drinkin' Beer. Talkin' God. Amen. (feat. Florida Georgia Line),Chase Rice,country
+Pretty Heart,Parker McCollum,country
+Just About Over You - Radio Edit,Priscilla Block,country
+Lose You,Jordan Davis,country
+>>>>>>> 6d54b95c80ba81f0465880d4fe0331f191f49268
 She Don't Know She's Beautiful,Sammy Kershaw,country
 When You Say Nothing At All,Alison Krauss & Union Station,country
 Bye-Bye,Jo Dee Messina,country
@@ -729,11 +822,19 @@ The Bones,Maren Morris,country
 The Good Ones,Gabby Barrett,country
 Got What I Got,Jason Aldean,country
 Love You Like I Used To,Russell Dickerson,country
+<<<<<<< HEAD
 Closer To You,Carly Pearce,country
 I'm Comin' Over,Chris Young,country
 Drunk Me,Mitchell Tenpenny,country
 God's Country,Blake Shelton,country
 Kiss Somebody,Morgan Evans,country
+=======
+She Got the Best of Me,Luke Combs,country
+This Is It,Scotty McCreery,country
+Closer To You,Carly Pearce,country
+Do I Make You Wanna,Billy Currington,country
+Marry Me,Thomas Rhett,country
+>>>>>>> 6d54b95c80ba81f0465880d4fe0331f191f49268
 Fool's Love Affair,Randy Travis,country
 Love Is Alive,The Judds,country
 "Lord, I Hope This Day Is Good - Single Version",Don Williams,country
@@ -844,7 +945,11 @@ What Is Life - Remastered 2014,George Harrison,travel
 Just Can't Be,The Flying Burrito Brothers,travel
 Band On The Run - Remastered 2010,Wings,travel
 Dark Star,"Crosby, Stills & Nash",travel
+<<<<<<< HEAD
 Hydra,Rodriguez Jr.,travel
+=======
+Run,Steny,travel
+>>>>>>> 6d54b95c80ba81f0465880d4fe0331f191f49268
 Home,Solomun,travel
 Trapdoor,Gorgon City,travel
 Need To Feel Loved - Tinlicker Remix,Reflekt,travel
