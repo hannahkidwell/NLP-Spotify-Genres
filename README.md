@@ -22,4 +22,4 @@ Our group shared a common interest in music and creating a machine learning mode
 -Find how and what makes the relationship within the data we’re analyzing.
 
 ## Link to Assigned Duties
-Here is the link to an excel spreadsheet with what each group member worked on: 
+Here is the link to an excel spreadsheet with what each group member worked on: https://drive.google.com/file/d/1yFzIDPxS48h5qYXb1bhgNAEhpdfMf9BK/view?usp=sharing
