@@ -9,6 +9,14 @@ Final project GitHub
 The user has saved or added to playlists.
 Are written by the same artists the user has in their current playlists.
 Are from new artists or albums the user does not yet know.
+2) Outline includes description of source data:
+- The source of data used in this project is exclusively from Spotify.
+- Spotify’s API is the connexon way used in this project in order to extract data.
+
+3) Outline includes questions we hope to answer with the data:
+-How to help transform data into business decision
+-Find how and what makes the relationship within the data we’re analyzing.
+
 
 
 
