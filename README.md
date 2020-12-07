@@ -23,3 +23,12 @@ Our group shared a common interest in music and creating a machine learning mode
 
 ## Link to Assigned Duties
 Here is the link to an excel spreadsheet with what each group member worked on: https://drive.google.com/file/d/1yFzIDPxS48h5qYXb1bhgNAEhpdfMf9BK/view?usp=sharing
+
+## Communication Log
+We have been meeting using Discord and messaging through Slack or Discord to coordinate the projects plans. We will continue to meet Tuesdays, Thursdays, and Sundays given group availabliliy. 
+- Meeting 11/20 in class
+- Meeting 11/24 in class
+- Meeting 12/1 on Zoom
+- Meeting 12/3 in class class
+- Meeting 12/6 on Discord
+- Next Meeting 12/8 in class
