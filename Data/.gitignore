@@ -1,0 +1,5 @@
+# Caching
+__pycache__
+
+# Creds
+config.py
