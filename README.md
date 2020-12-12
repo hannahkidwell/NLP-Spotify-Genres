@@ -8,9 +8,6 @@ The user has saved or added to playlists.
 Are written by the same artists the user has in their current playlists.
 Are from new artists or albums the user does not yet know.
 
-### Reason for Topic
-Our group shared a common interest in music and creating a machine learning model that was both useful and could evolve into a larger project. 
-
 ### Source Data
 - The source of data used in this project is exclusively from Spotify.
 - Spotify’s API is the connexon way used in this project in order to extract data.
