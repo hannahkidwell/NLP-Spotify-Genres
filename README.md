@@ -13,12 +13,6 @@ Are from new artists or albums the user does not yet know.
 - Spotify’s API is the connexon way used in this project in order to extract data.
 - Lyric API
 
-### Questions to Answer
-- Merging the data from Spotify and a lyric API, can we generate a model that accurately determines the genre/mood of a song by the lyrical content, or are other factors necessary?
-- How to help transform data into business decision.
-- Find how and what makes the relationship within the data we’re analyzing.
-- Is text analysis alone enough to differentiate moods/genres or does the model need to review beats per minute and other variables?
-
 ## Link to Google Slides Presentation
 Here is the link to the presentation: https://docs.google.com/presentation/d/1nddvQA9pJ1J52MaG6unWViKxsb_lgtQ5arq4Pr88yl0/edit?usp=sharing 
 
