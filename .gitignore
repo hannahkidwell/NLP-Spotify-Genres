@@ -1,0 +1,5 @@
+# Ignore config
+Data/Notebooks/config.py
+
+# Ignore cache folder
+Data/Notebooks/__pycache__
