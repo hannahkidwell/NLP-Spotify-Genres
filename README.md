@@ -8,8 +8,6 @@ The user has saved or added to playlists.
 Are written by the same artists the user has in their current playlists.
 Are from new artists or albums the user does not yet know.
 
- 
-
 ### Topic
 Using Machine Learning with Text Analysis on Song Lyrics Across Genres/Moods
 
@@ -26,6 +24,9 @@ Our group shared a common interest in music and creating a machine learning mode
 - How to help transform data into business decision.
 - Find how and what makes the relationship within the data we’re analyzing.
 - Is text analysis alone enough to differentiate moods/genres or does the model need to review beats per minute and other variables?
+
+## Link to Google Slides Presentation
+Here is the link to the presentation: https://docs.google.com/presentation/d/1nddvQA9pJ1J52MaG6unWViKxsb_lgtQ5arq4Pr88yl0/edit?usp=sharing 
 
 ## Link to Assigned Duties
 Here is the link to an excel spreadsheet with what each group member worked on: https://drive.google.com/file/d/1yFzIDPxS48h5qYXb1bhgNAEhpdfMf9BK/view?usp=sharing
