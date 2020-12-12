@@ -8,9 +8,6 @@ The user has saved or added to playlists.
 Are written by the same artists the user has in their current playlists.
 Are from new artists or albums the user does not yet know.
 
-### Topic
-Using Machine Learning with Text Analysis on Song Lyrics Across Genres/Moods
-
 ### Reason for Topic
 Our group shared a common interest in music and creating a machine learning model that was both useful and could evolve into a larger project. 
 
