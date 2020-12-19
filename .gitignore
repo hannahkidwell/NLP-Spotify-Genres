@@ -3,5 +3,4 @@ config.py
 .DS_Store
 __pycache__/
 
-lyric_TF.csv
-filtered_lyric_TF.csv
+acc_scores.txt
