@@ -1,0 +1,11 @@
+.ipynb_checkpoints/
+config.py
+.DS_Store
+__pycache__/
+
+acc_scores.txt
+
+.gitattributes
+
+lyric_TF.csv
+filtered_lyric_TF.csv
