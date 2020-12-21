@@ -1,5 +1,6 @@
-# Ignore config
-Data/Notebooks/config.py
+.ipynb_checkpoints/
+config.py
+.DS_Store
+__pycache__/
 
-# Ignore cache folder
-Data/Notebooks/__pycache__
+acc_scores.txt
