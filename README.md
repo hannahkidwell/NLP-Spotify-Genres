@@ -8,13 +8,14 @@ The user has saved or added to playlists.
 Are written by the same artists the user has in their current playlists.
 Are from new artists or albums the user does not yet know.
 
- 
-
 ### Topic
 Using Machine Learning with Text Analysis on Song Lyrics Across Genres/Moods
 
 ### Reason for Topic
 Our group shared a common interest in music and creating a machine learning model that was both useful and could evolve into a larger project. 
+
+### Presentation
+Link to Google Slides Presentation: https://docs.google.com/presentation/d/1nddvQA9pJ1J52MaG6unWViKxsb_lgtQ5arq4Pr88yl0/edit#slide=id.gaf6f423a01_0_345
 
 ### Source Data
 - The source of data used in this project is exclusively from Spotify.
