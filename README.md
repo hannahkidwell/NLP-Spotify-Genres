@@ -26,4 +26,10 @@ We have been meeting using Discord and messaging through Slack or Discord to coo
 - Meeting 12/1 on Zoom
 - Meeting 12/3 in class class
 - Meeting 12/6 on Discord
-- Next Meeting 12/8 in class
+- Meeting 12/8 in class
+- Meeting 12/10 in class
+- Meeting 12/12 on discord
+- Meeting 12/15 in class
+- Meeting 12/17 in class
+- Meeting 12/19 on discord
+- Next Meeting 12/22 TENATIVE
