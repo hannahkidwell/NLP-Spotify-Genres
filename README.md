@@ -36,7 +36,12 @@
 ## How accurate, precise, and sensitive is the model?
 - The model's accuracy using the entire dataset is 51.6%
 - After filtering the data to only include songs with matching categories and genres, the accuracy increased to 64.5%
-- The model's precision and sensitivity scores are
+- The model's macro average precision score was 0.51
+  - The classical genre had the best precision of 85%
+  - The indie_alt and romance genres had the lowest precision of 35% 
+- The model's weighted average recall score was 0.52
+  - The country genre had the best sensitivity of 92%
+  - The soul genre had the lowest sensitivity of 9% 
 
 ## What could you include if you had more time?
 - Using the random forest model to predict genre only using two genres at a time
