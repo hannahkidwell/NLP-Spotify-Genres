@@ -33,6 +33,12 @@
   - Are robust to outliers
 - One limitation of this model has been accuractely prediciting similar genres
 
+## How accurate, precise, and sensitive is the model?
+- The model's accuracy using the entire dataset is 51.6%
+- After filtering the data to only include songs with matching categories and genres, the accuracy increased to 64.5%
+- The model's precision and sensitivity scores are
 
-
-
+## What could you include if you had more time?
+- Using the random forest model to predict genre only using two genres at a time
+- Figuring out the most common words for each genre
+- Analyzing common phrases in the dataset
