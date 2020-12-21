@@ -2,19 +2,19 @@
 
 ## Description of preliminary data preprocessing
 - Getting familiar with the Spotify API
- - How to search for playlists in each category
- - Pulling songs, artists, and genres
- - Getting audio features for a song
+  - How to search for playlists in each category
+  - Pulling songs, artists, and genres
+  - Getting audio features for a song
 - Practice using LyricsGenius, a Python client for the Genuis API
- - Searching for songs and their lyrics
+  - Searching for songs and their lyrics
 - Cleaning song lyrics
- - Removing non alphabetic symbols such as punctuation
- - Tokenize lyrics and remove stop words
- - Determine the language of the lyrics and remove non English songs
+  - Removing non alphabetic symbols such as punctuation
+  - Tokenize lyrics and remove stop words
+  - Determine the language of the lyrics and remove non English songs
 - Creating a DataFrame for the ML model
- - Find a list of all unique words found and remove words used less than 5 times
- - Use song title, artist, category, along with the list of unique words as column names
- - Fill in each row with lyric term frequencies
+  - Find a list of all unique words found and remove words used less than 5 times
+  - Use song title, artist, category, along with the list of unique words as column names
+  - Fill in each row with lyric term frequencies
 
 ## Description of preliminary feature engineering and preliminary feature selection
 - I used dataframe filled with song information (artist, genre, and lyrics) to create a new dataframe with term frequencies for each song
