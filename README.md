@@ -15,7 +15,7 @@ Using Machine Learning with Text Analysis on Song Lyrics Across Genres/Moods
 Our group shared a common interest in music and creating a machine learning model that was both useful and could evolve into a larger project. 
 
 ### Presentation
-Link to Google Slides Presentation: https://docs.google.com/presentation/d/1nddvQA9pJ1J52MaG6unWViKxsb_lgtQ5arq4Pr88yl0/edit#slide=id.gaf6f423a01_0_345
+Link to Google Slides Presentation: https://docs.google.com/presentation/d/1nddvQA9pJ1J52MaG6unWViKxsb_lgtQ5arq4Pr88yl0/edit?usp=sharing
 
 ### Source Data
 - The source of data used in this project is exclusively from Spotify.
