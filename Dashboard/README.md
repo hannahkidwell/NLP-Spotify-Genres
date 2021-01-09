@@ -3,5 +3,6 @@
 - Navigate to the directory in terminal
 - Create a server: (ie: python -m http.server)
 
-# Bokeh ReadMe
+## Bokeh ReadMe
+
 https://docs.bokeh.org/en/latest/docs/user_guide/embed.html#userguide-embed-standalone
