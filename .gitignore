@@ -10,5 +10,5 @@ acc_scores.txt
 lyric_TF.csv
 filtered_lyric_TF.csv
 
-cooccurring_lyric_TF.csv
-filtered_cooccurring_TF.csv
+Data/cooccurring_lyric_TF.csv
+Data/filtered_cooccurring_TF.csv
