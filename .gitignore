@@ -12,3 +12,6 @@ filtered_lyric_TF.csv
 
 cooccurring_lyric_TF.csv
 filtered_cooccurring_TF.csv
+
+lyric_SF.csv
+filtered_lyric_SF.csv
