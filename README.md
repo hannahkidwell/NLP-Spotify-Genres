@@ -8,3 +8,4 @@ Here is the link to an excel spreadsheet with what each group member worked on: 
 
 ## Renata's Week 3 Contributions
 - Added technologies to slide 11 on google slide deck
+- Added languages to slide 11 on google slide deck
