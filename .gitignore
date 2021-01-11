@@ -7,8 +7,8 @@ acc_scores.txt
 
 .gitattributes
 
-Data/lyric_TF.csv
-Data/filtered_lyric_TF.csv
+lyric_TF.csv
+filtered_lyric_TF.csv
 
 cooccurring_lyric_TF.csv
 filtered_cooccurring_TF.csv
