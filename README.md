@@ -12,13 +12,13 @@
   - Tokenize lyrics and remove stop words
   - Determine the language of the lyrics and remove non English songs
 - Creating a DataFrame for the ML model
-  - Find a list of all unique words found and remove words used less than 5 times
-  - Use song title, artist, category, along with the list of unique words as column names
-  - Fill in each row with lyric term frequencies
+  - Find a list of all unique word stems found used more than 3 times
+  - Use song title, artist, category, along with the list of unique word stems as column names
+  - Fill in each row with stem frequencies
 
 ## Description of preliminary feature engineering and preliminary feature selection
-- I used dataframe filled with song information (artist, genre, and lyrics) to create a new dataframe with term frequencies for each song
-- Then I selected only the words that appeared at least 3 times within the dataset
+- I used dataframe filled with song information (artist, genre, and lyrics) to create a new dataframe with stem frequencies for each song
+- Then I selected only the word stems that appeared more than 3 times within the dataset
 - Futhermore, I removed songs that did not have matching categories and genres 
 
 ## Description of how data was split into training and testing sets
@@ -27,23 +27,33 @@
 - The testing set containted the other 25% of the orginal dataset which was 2,004 songs
 
 ## Explanation of model choice
-- I chose to use a random forest model because they:
-  - Allow for feature ranking, which we can use in order to eliminate features that have little impact on the output of our model
-  - Run efficiently on large datasets
-  - Are robust to outliers
+- I am still using a random forest model because it:
+  - Allows for feature ranking, which we can use in order to eliminate features that have little impact on the output of our model
+  - Runs efficiently on large datasets
+  - Is robust to outliers
 - One limitation of this model has been accuractely prediciting similar genres
+- I also created a k-means model and a perceptron model, but they performed much worse than the random forest model
+  - The k-means model had an accuracy of 22%
+  - The perceptron model has an accuracy of 10%
+
+## Explanation of changes in model choice
+- I am still using a random forest model, but I changed the input features from word frequencies to word stem frequencies
+  - Before, each input feature had 21,516 dimensions and the filtered input features had 14,046
+  - After changing the input features from unique words to unique word stems, each input feature has 15,391 dimensions and the filtered features have 9,099
+
+## Description of how the model was trained
+- I trained the model using the scaled X training set and the y training set with 500 estimators and a random state of 78
+  - The scaled X training set contained the audio features and word stems
+  - The y training set contained the category id
+  - It took 30 seconds to train the model
+- To further train the model, I can pull down more songs from the Spotify and Genius APIs
 
 ## How accurate, precise, and sensitive is the model?
 - The model's accuracy using the entire dataset is 51.6%
-- After filtering the data to only include songs with matching categories and genres, the accuracy increased to 64.5%
-- The model's macro average precision score was 0.51
-  - The classical genre had the best precision of 85%
-  - The indie_alt and romance genres had the lowest precision of 35% 
-- The model's weighted average recall score was 0.52
-  - The country genre had the best sensitivity of 92%
-  - The soul genre had the lowest sensitivity of 9% 
-
-## What could you include if you had more time?
-- Using the random forest model to predict genre only using two genres at a time
-- Figuring out the most common words for each genre
-- Analyzing common phrases in the dataset
+- After filtering the data to only include songs with matching categories and genres, the accuracy increased to 64.8%
+- The model's macro average precision score was 0.67
+  - The jazz genre had the best precision of 100%
+  - The indie_alt and romance genres had the lowest precision of 46% 
+- The model's weighted average recall score was 0.65
+  - The hiphop genre had the best sensitivity of 93%
+  - The soul genre had the lowest sensitivity of 14% 
