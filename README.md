@@ -17,6 +17,7 @@
   - Add 13 columns of audio features
     - The run time to get the audio features for all 14,212 songs was about 29 minutes
   - Save the DataFrame as song_genres.csv
+
 - Next, I created the clean_lyricsgenius_data.ipynb file which does the following:
   - Create DataFrame from the previous Spotify API calls
   - Add a column of song lyrics
@@ -28,6 +29,7 @@
   - Remove the songs without lyrics from the DataFrame
     - The updated DataFrame contains 8,982 songs
   - Save the DataFrame as song_lyrics.csv
+
 - Then, I created the PySpark_NLP.ipynb file in order to:
   - Remove 371 more songs that do not have lyrics
   - Add a category_id column of encoded categories/genres
@@ -40,7 +42,14 @@
   - Add a language column to the DataFrame
   - Remove 9 songs with no language
   - Save the DataFrame as nlp_df.csv
-- Lastly, I created the termfrequencies.ipynb file which does the following:
+  - Create a list of co-occurring words
+    - There were 485,774 unique co-occuring words found
+  - Create a DataFrame of with the most common co-occurring words and their frequencies
+    - This DataFrame has 130 columns
+    - The total run time to create the DataFrame was ...
+  - Save DataFrame as top_cooccurring_TF.csv
+
+- Next, I created the term_frequencies.ipynb file which does the following:
   - Create a list of all words from the filtered lyrics column
     - 39,244 unique words were found
   - Add a unique word count column and update the filtered lyrics column
@@ -57,18 +66,53 @@
   - Create a filtered DataFrame with columns of words that appear at least 4 times and are used in at least 4 different songs
     - The filtered DataFrame has 12,025 columns
   - Save the DataFrames as lyric_TF.csv and filtered_lyric_TF.csv
+
+- Lastly, I created the cooccurring_term_frequencies.ipynb file which does the following:
+  - Add columns of co-occurring words
+    - Filling in the co-occurring term frequencies took 119 seconds
+  - Save DataFrame as cooccurring_TF.csv
+  - Create and save a filtered DataFrame as filtered_cooccurring_TF.csv
   
 ### Summary
 - clean_spotify_data.ipynb creates song_genres.csv which contains artist, genre, and audio feature information for 14,212 songs
 - clean_lyricsgenius_data.ipynb creates song_lyrics which also contains lyrics and non alphabetic word counts
-- PySpark_NLP.ipynb creates nlp_df.csv which also contains category ids, filtered lyrics and languages
+- PySpark_NLP.ipynb creates nlp_df.csv which also contains category ids, filtered lyrics and languages, and top_cooccurring_TF.csv which contains the top co-occurring words and their frequencies
 - term_frequencies.ipynb creates lyric_TF.csv and filtered_lyric_TF.csv which contain term frequencies for 8,014 songs
+- cooccurring_term_frequencies.ipynb creates cooccurring_TF.csv and filtered_cooccurring_TF.csv which contain 
 
-- top_cooccurring_words.ipynb
-  - Create a list of co-occurring words
-    - There were 485,774 unique co-occuring words found
-  - Create a DataFrame of with the most common co-occurring words and their frequencies
-    - This DataFrame has 130 columns 
+## Desciption of preliminary data analysis
+- The top_words.ipynb file creates a DataFrame of the top ten words for each genre
+  - From the total 140 top ten words from each of the 14 genres, 29 were unique
+  - 7 out of all the top ten words for each genre are unique to one genre
+    - 'cant' is unique to the top words in the metal genre
+    - 'let' is unique to the top words in the jazz genre
+    - The n-word is unique to the hiphop genre
+    - 'man' and 'well' are unique to the blues genre
+    - 'see' is unique to the top words in the metal genre
+    - 'ill' is unique to the top words in the romance genre
+  - 6 out of all the top ten words for each genre are unique to two genre
+    - 'go' is unique to the top words in the punk and rock genres
+    - 'aint' is unique to the top words in the country and hiphop genres
+    - 'come' is unique to the top words in the classical and jazz genres
+    - 'ooh' is unique to the top words in the indie-alt and pop genres
+    - 'one' isunique to the top words in the classical and metal genres
+    - 'never' is unique to the top words in the metal and punk genres
+  - '?', 'dont', and 'im' are in the top ten words for every genre
+    - 'know' is in the top ten words for every genre except funk
+    - 'like' and 'love are in the top ten words for 11 out of 14 genres
+- The top_cooccurring_words.ipynb file creates a DataFrame of the top ten co-occurring words for each genre
+  - From the total 140 top ten co-occurring words from each of the 14 genres, 53 were unique
+  - 18 of the top ten co-occurring words were not unique to a genre
+  - 35 of the top ten co-occurring words are unique to one genre
+  - 4 of the top ten co-occurring words are unique to two genre
+      - 'get get' is unique to the top co-occurring words in the funk and jazz genres
+      - 'dont want' is unique to the top co-occurring words in the blues and romance genres
+      - 'doo doo' is unique to the top co-occurring words in the indie_alt and rock genres
+      - 'da da' is unique to the top co-occurring words in the metal and rock genres
+  - 'dont know' is in the top ten co-occurring words for every genre except funk
+  - 'oh oh' is in the top ten co-occurring words for every genre except blues and pop
+  - 'yeah yeah' is in the top ten co-occurring words for 11 out of the 14 genres
+- The genre_by_word_count.ipynb file creates DataFrames of word count distributions for each genre
 
 ## Description of preliminary feature engineering and preliminary feature selection
 - I used dataframe filled with song information (artist, genre, and lyrics) to create a new dataframe with stem frequencies for each song
