@@ -1,1 +1,6 @@
+# Ignore Data
+.csv
+.ipynb
+Data
+Analysis
 .DS_Store
