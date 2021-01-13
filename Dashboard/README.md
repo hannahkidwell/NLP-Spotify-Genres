@@ -3,6 +3,6 @@
 - Navigate to the directory in terminal
 - Create a server: (ie: python -m http.server)
 
-## FusionCharts Free Trail Version
+## FusionCharts Free Trial Version
 
 https://www.fusioncharts.com/
