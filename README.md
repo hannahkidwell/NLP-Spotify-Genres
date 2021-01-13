@@ -113,6 +113,20 @@
   - 'oh oh' is in the top ten co-occurring words for every genre except blues and pop
   - 'yeah yeah' is in the top ten co-occurring words for 11 out of the 14 genres
 - The genre_by_word_count.ipynb file creates DataFrames of word count distributions for each genre
+  - The hiphop genre had the highest mean word count and the highest mean unique word count
+  - The blues genre has the lowest mean word count and the lowest mean unique word count
+  - The song with the highest word count is in the hiphop category and the song with the highest unique word count is in the romance category
+  - The song with the lowest word count is in the rock category
+  - The indie-alt genre had the most songs with the minimum unique word count
+- The popularity_by_word_count.ipynb file creates DataFrames of word count distributions for each quartile of the songs by popularity
+  - The songs with the lowest 25% popularities have the lowest mean word count and the lowest mean unique word count
+  - The songs in the second quartile of popularity have a mean word count of 164 words
+  - The songs in the third quartile of popularity have a mean word count of 191 words
+  - The songs with the highest 25% popularities ahve the highest mean word count fo 206 words
+  - The song with the highest word count has a popularity of 64
+  - The song with the highest unique word count has a popularity of 61
+  - The song with the lowest word count has a popularity of 25
+  - The average popularity of the songs with the minimum unique word is 36
 
 ## Description of preliminary feature engineering and preliminary feature selection
 - I used dataframe filled with song information (artist, genre, and lyrics) to create a new dataframe with stem frequencies for each song
