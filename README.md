@@ -46,7 +46,7 @@
     - There were 485,774 unique co-occuring words found
   - Create a DataFrame of with the most common co-occurring words and their frequencies
     - This DataFrame has 130 columns
-    - The total run time to create the DataFrame was ...
+    - The total run time to create the DataFrame was about 1.5 hours
   - Save DataFrame as top_cooccurring_TF.csv
 
 - Next, I created the term_frequencies.ipynb file which does the following:
