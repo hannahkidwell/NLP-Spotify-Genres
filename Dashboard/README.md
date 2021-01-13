@@ -5,4 +5,4 @@
 
 ## FusionCharts Free Trial Version
 
-https://www.fusioncharts.com/
+https://docs.bokeh.org/en/latest/docs/user_guide/embed.html#userguide-embed-standalone
