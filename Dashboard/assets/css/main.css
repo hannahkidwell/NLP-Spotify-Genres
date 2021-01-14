@@ -1,22 +1,91 @@
 g.raphael-group-test {
     display: none;
 }
-
-p, h1, h2, h3 {
-    color: #fff;
+.no-col-padding {
+    padding-left: 0;
+    padding-right: 0;
 }
-
+.row {
+    padding-top: 1em;
+}
 .dark {
     background: #191e27;
 }
-
 .jumbotron.dark, .dark {
     color: #fff;
 }
-
-.grey-box {
+.light {
     background: #fff;
-    min-height: 150px;
 }
+.jumbotron.light, .light{
+    color: #000;
+}
+.box {
+    min-height: 485px;
+    margin: .5em .5em 0 .5em;
+}
+.white {
+    background: #fff;
+}
+
+.dark {
+    background: #191e27;;
+}
+.toggle {
+    position: fixed;
+    top: 5%;
+    left: 0;
+    width: 60px;
+}
+.toggle.two {
+    position: fixed;
+    top: 15%;
+    left: 0;
+    width: 60px;
+}
+.toggle .mask {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+}
+.toggle .mask .icon-wrap {
+    padding: 15px;
+    transition: all 300ms 400ms ease;
+}
+.toggle .mask .icon-wrap:last-child {
+    transform: translatey(-60px);
+}
+.toggle .mask .icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.toggle .mask .active {
+    transition-delay: 100ms;
+}
+.toggle .mask .active:first-child {
+    transform: translatey(60px);
+}
+.toggle .mask .active:last-child {
+    transform: translatey(0);
+}
+.toggle .mask .sun {
+    background-color: #fff;
+}
+.toggle .mask .moon {
+    background-color: #283445;
+}
+.toggle .bar {
+    width: 40%;
+    height: 5px;
+    margin: 0 auto;
+    background-color: #283445;
+    transition: all 300ms 100ms ease;
+}
+.toggle .bar.dark {
+    background-color: #fff;
+}
+  
+
 
 

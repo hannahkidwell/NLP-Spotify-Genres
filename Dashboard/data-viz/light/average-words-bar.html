@@ -1,0 +1,103 @@
+<html>
+<head>
+<title>Average Words Per Song by Genre</title>
+<script type="text/javascript" src="../../js/fusioncharts.js"></script>
+<!-- Include fusion light theme -->
+<script type="text/javascript" src="../../js/themes/fusioncharts.theme.fusion.js"></script>
+<link rel="stylesheet" href="../../assets/css/main.css">
+
+<script type="text/javascript">
+    //STEP 2 - Chart Data
+    const chartData = [
+      {
+        "label": "blues",
+        "value": "119.74",
+      },
+      {
+        "label": "classical",
+        "value": "142.48",
+      },
+      {
+        "label": "country",
+        "value": "166.24",
+      },
+      {
+        "label": "funk",
+        "value": "203.20",
+      },
+      {
+        "label": "hiphop",
+        "value": "352.62",
+      },
+      {
+        "label": "indie_alt",
+        "value": "141.24",
+      },
+      {
+        "label": "jazz",
+        "value": "123.50",
+      },
+      {
+        "label": "metal",
+        "value": "146.42",
+      },
+      {
+        "label": "pop",
+        "value": "192.13",
+      },
+      {
+        "label": "punk",
+        "value": "154.73",
+      },
+      {
+        "label": "rnb",
+        "value": "232.48",
+      },
+      {
+        "label": "rock",
+        "value": "157.46",
+      },
+      {
+        "label": "romance",
+        "value": "144.70",
+      },
+      {
+        "label": "soul",
+        "value": "180.98",
+      }
+     ];
+
+    //STEP 3 - Chart Configurations
+    const chartConfig = {
+    type: 'column2d',
+    renderAt: 'chart-container',
+    width: '100%',
+    height: '400',
+    dataFormat: 'json',
+    dataSource: {
+        // Chart Configuration
+        "chart": {
+            "caption": "Average Words per Song by Genre",
+            "xAxisName": "Genre",
+            "yAxisName": "Words",
+            "yaxismaxvalue": "400",
+            "formatnumberscale": "0",
+            "annotations": null,
+            "theme": "fusion",
+            
+            },
+        // Chart Data
+        "data": chartData
+        }
+    };
+    FusionCharts.ready(function(){
+    var fusioncharts = new FusionCharts(chartConfig);
+    fusioncharts.render();
+    });
+
+</script>
+</head>
+<body>
+<div id="chart-container"></div>
+</body>
+</html>

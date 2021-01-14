@@ -1,0 +1,331 @@
+<html>
+<head>
+<title>Top 5 Words and the Frequncies Per Genre</title>
+<script type="text/javascript" src="../../js/fusioncharts.js"></script>
+<!-- Include candy dark theme -->
+<script type="text/javascript" src="../../js/themes/fusioncharts.theme.candy.js"></script>
+<link rel="stylesheet" href="../../assets/css/main.css">
+
+<script type="text/javascript">
+    //STEP 2 - Chart Data
+    const dataSource = {
+      chart: {
+        caption: "Total Top 5 Words and their Frequencies in Each Genre",
+        yaxisname: "Word Frequency",
+        showvalues: "0",
+        theme: "candy",
+        numvisibleplot: 1
+      },
+      categories: [
+        {
+          category: [
+            {
+              label: "blues"
+            },
+            {
+              label: "classical"
+            },
+            {
+              label: "country"
+            },
+            {
+              label: "funk"
+            },
+            {
+              label: "hiphop"
+            },
+            {
+              label: "indie_alt"
+            },
+            {
+              label: "jazz"
+            },
+            {
+              label: "metal"
+            },
+            {
+              label: "pop"
+            },
+            {
+              label: "punk"
+            },
+            {
+              label: "rnb"
+            },
+            {
+              label: "rock"
+            },
+            {
+              label: "romance"
+            },
+            {
+              label: "soul"
+            }
+          ]
+        }
+      ],
+      dataset: [
+        {
+          dataset: [
+            {
+              seriesname: "know",
+              data: [
+                {
+                  value: "649"
+                },
+                {
+                  value: "76"
+                },
+                {
+                  value: "1914"
+                },
+                {
+                  value: "492"
+                },
+                {
+                  value: "2330"
+                },
+                {
+                  value: "1041"
+                },
+                {
+                  value: "271"
+                },
+                {
+                  value: "711"
+                },
+                {
+                  value: "1931"
+                },
+                {
+                  value: "857"
+                },
+                {
+                  value: "1374"
+                },
+                {
+                  value: "1898"
+                },
+                {
+                  value: "622"
+                },
+                {
+                  value: "1086"
+                }
+              ]
+            },
+            {
+              seriesname: "like",
+              data: [
+                {
+                  value: "330"
+                },
+                {
+                  value: "75"
+                },
+                {
+                  value: "2464"
+                },
+                {
+                  value: "578"
+                },
+                {
+                  value: "3898"
+                },
+                {
+                  value: "934"
+                },
+                {
+                  value: "209"
+                },
+                {
+                  value: "749"
+                },
+                {
+                  value: "1976"
+                },
+                {
+                  value: "784"
+                },
+                {
+                  value: "1169"
+                },
+                {
+                  value: "1979"
+                },
+                {
+                  value: "337"
+                },
+                {
+                  value: "659"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          dataset: [
+            {
+              seriesname: "love",
+              data: [
+                {
+                  value: "695"
+                },
+                {
+                  value: "111"
+                },
+                {
+                  value: "2044"
+                },
+                {
+                  value: "842"
+                },
+                {
+                  value: "909"
+                },
+                {
+                  value: "825"
+                },
+                {
+                  value: "533"
+                },
+                {
+                  value: "422"
+                },
+                {
+                  value: "1409"
+                },
+                {
+                  value: "426"
+                },
+                {
+                  value: "1873"
+                },
+                {
+                  value: "1480"
+                },
+                {
+                  value: "1135"
+                },
+                {
+                  value: "1722"
+                }
+              ]
+            },
+            {
+              seriesname: "oh",
+              data: [
+                {
+                  value: "500"
+                },
+                {
+                  value: "99"
+                },
+                {
+                  value: "1894"
+                },
+                {
+                  value: "756"
+                },
+                {
+                  value: "892"
+                },
+                {
+                  value: "1334"
+                },
+                {
+                  value: "203"
+                },
+                {
+                  value: "500"
+                },
+                {
+                  value: "2374"
+                },
+                {
+                  value: "774"
+                },
+                {
+                  value: "1822"
+                },
+                {
+                  value: "2512"
+                },
+                {
+                  value: "497"
+                },
+                {
+                  value: "1210"
+                }
+              ]
+            },
+            {
+              seriesname: "baby",
+              data: [
+                {
+                  value: "841"
+                },
+                {
+                  value: "27"
+                },
+                {
+                  value: "1211"
+                },
+                {
+                  value: "851"
+                },
+                {
+                  value: "726"
+                },
+                {
+                  value: "452"
+                },
+                {
+                  value: "226"
+                },
+                {
+                  value: "173"
+                },
+                {
+                  value: "740"
+                },
+                {
+                  value: "167"
+                },
+                {
+                  value: "1407"
+                },
+                {
+                  value: "785"
+                },
+                {
+                  value: "473"
+                },
+                {
+                  value: "1194"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+    };
+    
+    
+FusionCharts.ready(function() {
+  var myChart = new FusionCharts({
+    type: "scrollmsstackedcolumn2d",
+    renderAt: "chart-container",
+    width: "100%",
+    height: "100%",
+    dataFormat: "json",
+    dataSource
+  }).render();
+});
+
+</script>
+</head>
+<body>
+<div id="chart-container"></div>
+</body>
+</html>

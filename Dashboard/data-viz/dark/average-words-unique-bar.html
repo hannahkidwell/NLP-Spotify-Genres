@@ -1,0 +1,238 @@
+<html>
+<head>
+<title>Average Words Per Song by Genre</title>
+<script type="text/javascript" src="../../js/fusioncharts.js"></script>
+<!-- Include fusion theme -->
+<script type="text/javascript" src="../../js/themes/fusioncharts.theme.candy.js"></script>
+<link rel="stylesheet" href="../../assets/css/main.css">
+
+<script type="text/javascript">
+    const dataSource = {
+        chart: {
+          caption: "Average Words per Song by Genre",
+          yaxisname: "Average Words per Song",
+          syaxisname: "Percent Popular",
+          labeldisplay: "rotate",
+          snumbersuffix: "%",
+          scrollheight: "10",
+          numvisibleplot: "30",
+          drawcrossline: "1",
+          theme: "candy"
+        },
+        categories: [
+          {
+            category: [
+              {
+                label: "blues"
+              },
+              {
+                label: "classical"
+              },
+              {
+                label: "country"
+              },
+              {
+                label: "funk"
+              },
+              {
+                label: "hiphop"
+              },
+              {
+                label: "indie_alt"
+              },
+              {
+                label: "jazz"
+              },
+              {
+                label: "metal"
+              },
+              {
+                label: "pop"
+              },
+              {
+                label: "punk"
+              },
+              {
+                label: "rnb"
+              },
+              {
+                label: "rock"
+              },
+              {
+                label: "romance"
+              },
+              {
+                label: "soul"
+              }
+            ]
+          }
+        ],
+        dataset: [
+          {
+            seriesname: "Words",
+            plottooltext: "Words: $dataValue",
+            data: [
+              {
+                value: "119.74"
+              },
+              {
+                value: "142.48"
+              },
+              {
+                value: "166.24"
+              },
+              {
+                value: "203.20"
+              },
+              {
+                value: "352.62"
+              },
+              {
+                value: "141.24"
+              },
+              {
+                value: "123.50"
+              },
+              {
+                value: "146.42"
+              },
+              {
+                value: "192.13"
+              },
+              {
+                value: "154.73"
+              },
+              {
+                value: "232.48"
+              },
+              {
+                value: "157.46"
+              },
+              {
+                value: "144.70"
+              },
+              {
+                value: "180.98"
+              }
+            ]
+          },
+          {
+            seriesname: "Unique Words",
+            renderas: "area",
+            showanchors: "0",
+            plottooltext: "Unique Words: $dataValue",
+            data: [
+              {
+                value: "53.71"
+              },
+              {
+                value: "78.23"
+              },
+              {
+                value: "74.82"
+              },
+              {
+                value: "73.09"
+              },
+              {
+                value: "173.77"
+              },
+              {
+                value: "57.98"
+              },
+              {
+                value: "60.66"
+              },
+              {
+                value: "69.17"
+              },
+              {
+                value: "69.74"
+              },
+              {
+                value: "70.07"
+              },
+              {
+                value: "85.19"
+              },
+              {
+                value: "63.48"
+              },
+              {
+                value: "59.56"
+              },
+              {
+                value: "70.65"
+              }
+            ]
+          },
+          {
+            seriesname: "Genre Popularity",
+            parentyaxis: "S",
+            renderas: "line",
+            plottooltext: "$dataValue Average Genre Popularity",
+            showvalues: "0",
+            data: [
+              {
+                value: "31.22"
+              },
+              {
+                value: "32.90"
+              },
+              {
+                value: "51.33"
+              },
+              {
+                value: "37.40"
+              },
+              {
+                value: "56.57"
+              },
+              {
+                value: "43.04"
+              },
+              {
+                value: "37.68"
+              },
+              {
+                value: "44.61"
+              },
+              {
+                value: "57.56"
+              },
+              {
+                value: "35.86"
+              },
+              {
+                value: "54.53"
+              },
+              {
+                value: "49.67"
+              },
+              {
+                value: "54.07"
+              },
+              {
+                value: "41.65"
+              }
+            ]
+          }
+        ]
+      };
+    FusionCharts.ready(function() {
+        var myChart = new FusionCharts({
+          type: "scrollcombidy2d",
+          renderAt: "chart-container",
+          width: "100%",
+          height: "100%",
+          dataFormat: "json",
+          dataSource
+        }).render();
+      });
+
+</script>
+</head>
+<body>
+<div id="chart-container"></div>
+</body>
+</html>
