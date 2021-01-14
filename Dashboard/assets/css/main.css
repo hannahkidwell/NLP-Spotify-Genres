@@ -1,16 +1,78 @@
+
+/* text styles */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
+h1 {
+    font-weight: 900;
+}
+h2 {
+    font-size: 3em;
+    font-weight: 900;
+}
+h3 {
+    font-size: 2.5em;
+    font-weight: 900;
+}
+h4 {
+    font-size: 2em;
+    font-weight: 900;
+}
+p {
+    font-size: 1em;
+}
+.box p {
+    font-size: 1.75em;
+}
+.box p.small-text {
+    font-size: 1.25em;
+}
+.serif {
+    font-weight: 400;
+}
+.dark-text {
+    color: #191e27;
+}
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    font-size: .95em;
+    color: #333333;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+footer.dark {
+    background-color: rgb(38, 42, 51);
+    text-align: center;
+    font-size: .95em;
+    color: #e7e7e7;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+/* charts styles */
 g.raphael-group-test {
     display: none;
+}
+
+/* layout */
+.box {
+    margin: .5rem
+}
+h2, h3, h4, p {
+    margin: 3rem;
+}
+.row {
+    padding-top: 1em;
 }
 .no-col-padding {
     padding-left: 0;
     padding-right: 0;
 }
-.row {
-    padding-top: 1em;
-}
-.dark {
-    background: #191e27;
-}
+
+/* dark and light theme styles */
 .jumbotron.dark, .dark {
     color: #fff;
 }
@@ -20,17 +82,21 @@ g.raphael-group-test {
 .jumbotron.light, .light{
     color: #000;
 }
-.box {
-    min-height: 485px;
-    margin: .5em .5em 0 .5em;
-}
 .white {
     background: #fff;
 }
-
 .dark {
-    background: #191e27;;
+    background: #191e27;
 }
+.light-text {
+   color: #fff;
+}
+.spotify-embed {
+    text-align: center;
+    margin: 2em;
+}
+
+/* dark and light mode toggl */
 .toggle {
     position: fixed;
     top: 5%;

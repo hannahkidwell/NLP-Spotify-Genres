@@ -44,26 +44,100 @@
       </a>
     </div>
     <div class="row">
-      <div class="col-md-7 no-col-padding">
+      <div class="col-md-7 no-col-padding center">
         <div class=""><embed type="text/html" src="data-viz/dark/average-words-unique-bar.html" width="100%" height="500px"></div>
       </div>
       <div class="col-md-5 no-col-padding">
-        <div class="dark box"></div>
+        <div class="dark box">
+          <h2 class="light-text">Low unique words has a correlation to Spotify's popularity rating.</h2>
+          <p>Songs with the lowest 25% popularities tend to have the lowest average unique word count.</p>
+          <p class="small-text">
+            Country, pop and romance tend to score higher even with average word counts, 
+            while funk and punk may need to focus more on the music and less on the lyrics.</p>
+        </div>
       </div>
     </div>  
-    <div class="row">
-      <div class="col-md-5 no-col-padding">
-        <div class="dark box"></div>
-      </div>
-      <div class="col-md-7 no-col-padding">
-        <div class=""><embed type="text/html" src="data-viz/dark/amount_words_pie.html" width="100%" height="500px"></div>
-      </div>
-    </div>  
-    <div class="row">
-      <div class="col-md-12 no-col-padding">
-        <div class=""><embed type="text/html" src="data-viz/dark/top-words.html" width="100%" height="400px"></div>
-      </div>
-    </div>
+  
+      <div class="row">
+        <div class="col-md-7 no-col-padding">
+          <div class=""><embed type="text/html" src="data-viz/dark/amount_words_pie.html" width="100%" height="600px"></div>
+        </div>
+        <div class="col-md-5 no-col-padding center">
+          <div class="dark box">
+            <h3 class="light-text">Some unique word distributions by genre breakdown.</h3>
+            <p>Top 3 genres with the highest average unique word counts is Hiphop, R&B, and Classical. 
+              Although Classical has the least amout of words by genre, you get more unique words than most other categories.</p>
+            <p class="small-text">Genres with the lowest average word counts are Blues, Indie-alt, and Jazz. They really are in it for the music.</p>
+          </div>
+        </div>
+      </div>  
+  
+      <div class="row">
+        <div class="col-md-9 col-sm-7 col-xs-12 no-col-padding center">
+          <div class="dark box">
+            <h3 class="light-text"> If you like classical you might like jazz and metal, and if you like hiphop maybe you’ll like county too? 
+              </h3>
+              <ul style="font-size:larger;">
+                <li>'come' is unique to the top words in the classical and jazz genres</li>
+                <li> 'one' is unique to the top words in the classical and metal genres</li>
+                <li> 'never' is unique to the top words in the metal and punk genres</li>
+                <li> 'go' is unique to the top words in the punk and rock genres</li>
+                <li> 'aint' is unique to the top words in the country and hiphop genres</li>
+                <li>'ooh' is unique to the top words in the indie-alt and pop genres</li>
+            </ul>
+            <p>The song with the highest unique word count is Momentum by Russ <br>(544 unique words with a popularty rating of 61.)</p>
+          </div>
+        </div>
+        <div class="col-md-3 col-sm-5 col-xs-12 no-col-padding">
+          <div class="spotify-embed"><iframe src="https://open.spotify.com/embed/track/4E8eWaFyMHBIS2y6ggz0D6" width="250" height="300" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+          </div>
+        </div>
+      </div>  
+  
+      <div class="row">
+        <div class="col-md-12 no-col-padding">
+          <h4 class="light-text">The top concurent words across genres <span style="font-weight: 200;line-height:1.5;">are actually pretty universal.</span></h4>
+          <div class="table-responsive" data-example-id="bordered-table">
+            <table class="table table-hover"> 
+              <thead> 
+                <tr> 
+                  <th></th><th>Blues</th> <th>Classical</th> <th>Country</th> <th>Funk</th> <th>Hiphop</th> <th>Indie Alt</th> <th>Jazz</th> <th>Metal</th> <th>Pop</th><th>Punk</th><th>RnB</th><th>Rock</th><th>Romance</th><th>Soul</th>
+                </tr>
+             </thead> 
+             <tbody> 
+               <tr> 
+                 <th>1</th> <td>dont know</td> <td>oh oh</td> <td>oh oh</td> <td>get get</td> <td>yeah yeah</td> <td>oh oh</td> <td>na na</td> <td>oh oh</td> <td>ooh ooh</td> <td>oh oh</td> <td>oh oh</td> <td>oh oh</td> <td>la la</td> <td>la la</td>
+                </tr> 
+               <tr> 
+                 <th>2</th> <td>im going</td> <td>da da</td> <td>dont know</td> <td>dont stop</td> <td>na na</td> <td>ooh ooh</td> <td>thats way</td> <td>hey hey</td> <td>oh oh</td> <td>la la</td> <td>yeah yeah</td> <td>na na</td> <td>dont know</td> <td>oh oh</td>
+                </tr> 
+              </tr> 
+              <tr> 
+                <th>3</th> <td>hey hey</td> <td>ah ah</td> <td>na na</td> <td>hey hey</td> <td>dont know</td> <td>la la</td> <td>round round</td> <td>dont know</td> <td>la la</td> <td>yeah yeah</td> <td>love love</td> <td>yeah yeah</td> <td>yeah yeah</td> <td>yeah yeah</td>
+               </tr> 
+             </tr> 
+             <tr> 
+              <th>4</th> <td>im gonna</td> <td>du du</td> <td>dont wanna</td> <td>oh oh</td> <td>know im</td> <td>doo doo</td> <td>let go</td> <td>da da</td> <td>na na</td> <td>dont know</td> <td>ooh ooh</td> <td>doo doo</td> <td>time time</td> <td>ooh ooh</td>
+             </tr> 
+           </tr> 
+           <tr> 
+            <th>5</th> <td>dont want</td> <td>dont wanna</td> <td>ooh ooh</td> <td>yeah yeah</td> <td>la la</td> <td>dont know</td> <td>dont let</td> <td>let go</td> <td>dont know</td> <td>na na</td> <td>dont know</td> <td>dont know</td> <td>time time</td> <td>du du</td>
+           </tr> 
+         </tr> 
+              </tbody> 
+            </table> 
+          </div>
+          <div class="col-md-12 no-col-padding">
+            <h4 class="light-text margin">Country songs sing about love more than Pop, RnB and Romance. <span style="font-weight: 200;line-height:1.5;">(we'll blame Taylor Swift)</span></h4>
+            <p style="font-size:larger;">Most Genre’s have unique top words of their own. However. 'know' is in the top ten words for <u>every genre except funk</u> (maybe including this will boost it’s popularity?<br>  
+              'Like' and 'love are in the top ten words for 11 out of 14 genres.. most songs are about loving (or at least liking) it seems. 
+              </p>
+            <embed type="text/html" src="data-viz/dark/top-words.html" width="100%" height="400px">
+          </div>
   </div>
+</div>
+</div>
+<footer class="dark">Data is a random genereated top-songs from the <a href="https://developer.spotify.com/documentation/web-api/">Spotify API</a> and paired with the <a href="https://docs.genius.com/">Genius API</a> using Natural Learning Processing and ML technology.</footer>
+
 </body>
 </html>
