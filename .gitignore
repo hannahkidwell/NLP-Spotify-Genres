@@ -15,3 +15,17 @@ filtered_cooccurring_TF.csv
 
 lyric_SF.csv
 filtered_lyric_SF.csv
+
+deep_learning/
+k-means/
+word_stems/
+
+cooccurring_rf_model.ipynb
+filtered_tf_random_forest.ipynb
+original_random_forest_model.ipynb
+smoteen_rf_model.ipynb
+tf_idf_random_forest.ipynb
+
+tf_idf.csv
+tf_idf2.csv
+filtered_tf_idf.csv
