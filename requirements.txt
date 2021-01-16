@@ -1,0 +1,3 @@
+pip install lyricsgenius
+pip install langdetect
+pip install imblearn
