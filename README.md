@@ -1,10 +1,10 @@
 # Machine Learning Model Overview
 
 ## Description of preliminary data preprocessing
-- In my first notebook, clean_spotify_data.ipynb, I used the Spotify API to create a DataFrame with artist, genre, and audio feature information for 14,212 songs
+- In my first notebook, clean_spotify_data.ipynb, I used the Spotify API to create a DataFrame with artist, genre, and audio feature information for about 14,000 songs
 - In the next notebook, clean_lyricsgenius_data.ipynb, I used the Genius API to add a column of lyrics
   - The runtime of looking up the lyrics using the API was about 10 hours
-  - Since lyrics were not found for all songs, the updated DataFrame contained 8,982 songs
+  - Since lyrics were not found for all songs, the updated DataFrame contains about 9,000 songs
     - Before saving the DataFrame, I cleaned the lyrics by removing unnecessary symbols and spaces
 - The PySpark_NLP.ipynb filters the data based on 3 new columns and creates a DataFrame of the top co-occurring words
   - A category_id column of encoded genres is added
@@ -46,8 +46,8 @@
 
 ## Description of how data was split into training and testing sets
 - The data was split into training and testing sets using the train_test_split method from the sklearn library
-- The training set contained the default 75% of the original dataset which was 6,010 songs
-- The testing set containted the other 25% of the orginal dataset which was 2,004 songs
+- The training set contained the default 75% of the original dataset which was about 6,000 songs
+- The testing set containted the other 25% of the orginal dataset which was about 2,000 songs
 
 ## Explanation of model choice
 - I am still using a random forest model because it:
@@ -63,15 +63,18 @@
 - I trained the model using the scaled X training set and the y training set with 500 estimators and a random state of 78
   - The scaled X training set contained the audio features and word stems
   - The y training set contained the category id
-  - It took 30 seconds to train the model
 - To further train the model, I can pull down more songs from the Spotify and Genius APIs
 
 ## How accurate, precise, and sensitive is the model?
 - The model's accuracy using the entire dataset is 51.6%
-- After filtering the data to only include songs with matching categories and genres, the accuracy increased to 64.8%
-- The model's macro average precision score was 0.67
-  - The jazz genre had the best precision of 100%
-  - The indie_alt and romance genres had the lowest precision of 46% 
-- The model's weighted average recall score was 0.65
-  - The hiphop genre had the best sensitivity of 93%
-  - The soul genre had the lowest sensitivity of 14% 
+- After filtering the data to only include songs with matching categories and genres, the accuracy increased to 70.7%
+- Below is a screenshot of the confusion matrix
+<img src='https://github.com/npantfoerder/mapping-earthquakes/blob/master/EarthquakeMap.png' width=800>
+- The country genre performed the best with 94% of predeictions being correct
+- The soul genre performed the worst with 18% of predictions being correct
+- The model's weighted average precision score was 0.70
+  - The metal genre had the highest precision of 88%
+  - The funk genre had the lowest precision of 46% 
+- The model's weighted average recall score was 0.71
+  - The country genre had the highest sensitivity of 94%
+  - The soul genre had the lowest sensitivity of 18% 
