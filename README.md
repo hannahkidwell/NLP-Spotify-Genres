@@ -68,8 +68,10 @@
 ## How accurate, precise, and sensitive is the model?
 - The model's accuracy using the entire dataset is 51.6%
 - After filtering the data to only include songs with matching categories and genres, the accuracy increased to 70.7%
-- Below is a screenshot of the confusion matrix
+- Below is a screenshot of the confusion matrix:
+
 <img src='https://github.com/hannahkidwell/UCB-Final-Project/blob/neele4/confusion_matrix.png' width=800>
+
 - The country genre performed the best with 94% of predeictions being correct
 - The soul genre performed the worst with 18% of predictions being correct
 - The model's weighted average precision score was 0.70
