@@ -7,6 +7,7 @@ Here is the link to the presentation: https://docs.google.com/presentation/d/1nd
 Here is the link to an excel spreadsheet with what each group member worked on: https://drive.google.com/file/d/1yFzIDPxS48h5qYXb1bhgNAEhpdfMf9BK/view?usp=sharing
 
 ## Machine Learning Model Overview
+
 ### Description of preliminary data preprocessing
 - In the first notebook, clean_spotify_data.ipynb, we used the Spotify API to create a DataFrame with artist, genre, and audio feature information for about 14,000 songs
 - In the next notebook, clean_lyricsgenius_data.ipynb, we used the Genius API to add a column of lyrics
