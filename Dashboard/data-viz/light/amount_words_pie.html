@@ -1,0 +1,100 @@
+<html>
+<head>
+<title>Word Distribution by Genre</title>
+<script type="text/javascript" src="../../js/fusioncharts.js"></script>
+<!-- Include fusion light theme -->
+<script type="text/javascript" src="../../js/themes/fusioncharts.theme.fusion.js"></script>
+<link rel="stylesheet" href="../../assets/css/main.css">
+
+<script type="text/javascript">
+  const dataSource = {
+    chart: {
+      caption: "Word Distribution by Genre",
+      showpercentvalues: "1",
+      defaultcenterlabel: "2.6M total words",
+      aligncaptionwithcanvas: "0",
+      captionpadding: "0",
+      decimals: "1",
+      showlegend: "0",
+      plottooltext:
+        "<b>$percentValue</b> of all words are <b>$label</b>",
+      centerlabel: "$label has $value of the total words",
+      theme: "fusion"
+    },
+    data: [
+      {
+        label: "blues",
+        value: "92148"
+      },
+      {
+        label: "classical",
+        value: "35882"
+      },
+      {
+        label: "country",
+        value: "377687"
+      },
+      {
+        label: "funk",
+        value: "102058"
+      },
+      {
+        label: "hiphop",
+        value: "413581"
+      },
+      {
+        label: "indie_alt",
+        value: "174576"
+      },
+      {
+        label: "jazz",
+        value: "47916"
+      },
+      {
+        label: "metal",
+        value: "236760"
+      },
+      {
+        label: "pop",
+        value: "239795"
+      },
+      {
+        label: "punk",
+        value: "161710"
+      },
+      {
+        label: "rnb",
+        value: "152850"
+      },
+      {
+        label: "rock",
+        value: "357875"
+      },
+      {
+        label: "romance",
+        value: "117316"
+      },
+      {
+        label: "soul",
+        value: "132664 "
+      }
+    ]
+  };
+  
+  FusionCharts.ready(function() {
+    var myChart = new FusionCharts({
+      type: "doughnut2d",
+      renderAt: "chart-container",
+      width: "100%",
+      height: "100%",
+      dataFormat: "json",
+      dataSource
+    }).render();
+  });
+
+</script>
+</head>
+<body>
+<div id="chart-container"></div>
+</body>
+</html>

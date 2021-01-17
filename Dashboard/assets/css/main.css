@@ -1,0 +1,176 @@
+/* text styles */
+body {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: 300;
+}
+h1 {
+    font-weight: 900;
+}
+h2 {
+    font-size: 3em;
+    font-weight: 900;
+}
+h3 {
+    font-size: 2.5em;
+    font-weight: 900;
+}
+h4 {
+    font-size: 2em;
+    font-weight: 900;
+}
+p {
+    font-size: 1em;
+}
+.box p {
+    font-size: 1.75em;
+}
+.box p.small-text {
+    font-size: 1.25em;
+}
+.serif {
+    font-weight: 400;
+}
+.dark-text {
+    color: #191e27;
+}
+footer {
+    background-color: #f1f1f1;
+    text-align: center;
+    font-size: .95em;
+    color: #333333;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+footer.dark {
+    background-color: rgb(38, 42, 51);
+    text-align: center;
+    font-size: .95em;
+    color: #e7e7e7;
+    padding: 2rem;
+    margin-top: 4rem;
+}
+
+/* charts styles */
+g.raphael-group-test {
+    display: none;
+}
+.dark-hover-text>tbody>tr:hover {
+    color: #000000;
+}
+
+/* layout */
+.box {
+    margin: .5rem
+}
+h2, h3, h4, p {
+    margin: 3rem;
+}
+.row {
+    padding-top: 1em;
+}
+.no-col-padding {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* dark and light theme styles */
+.jumbotron.dark, .dark {
+    color: #fff;
+}
+.light {
+    background: #fff;
+}
+.jumbotron.light, .light{
+    color: #000;
+}
+.white {
+    background: #fff;
+}
+.dark {
+    background: #191e27;
+}
+.light-text {
+   color: #fff;
+}
+.spotify-embed {
+    text-align: center;
+    margin: 2em;
+}
+
+/* dark and light mode toggl */
+.toggle {
+    position: fixed;
+    top: 5%;
+    left: 0;
+    width: 60px;
+    z-index: 999;
+}
+.toggle.two {
+    position: fixed;
+    top: 15%;
+    left: 0;
+    width: 60px;
+    z-index: 999;
+}
+.toggle .mask {
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+}
+.toggle .mask .icon-wrap {
+    padding: 15px;
+    transition: all 300ms 400ms ease;
+}
+.toggle .mask .icon-wrap:last-child {
+    transform: translatey(-60px);
+}
+.toggle .mask .icon {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+.toggle .mask .active {
+    transition-delay: 100ms;
+}
+.toggle .mask .active:first-child {
+    transform: translatey(60px);
+}
+.toggle .mask .active:last-child {
+    transform: translatey(0);
+}
+.toggle .mask .sun {
+    background-color: #fff;
+}
+.toggle .mask .moon {
+    background-color: #283445;
+}
+.toggle .bar {
+    width: 40%;
+    height: 5px;
+    margin: 0 auto;
+    background-color: #283445;
+    transition: all 300ms 100ms ease;
+}
+.toggle .bar.dark {
+    background-color: #fff;
+}
+  
+@media only screen and (max-width: 767px) {
+    .toggle {
+        position: fixed;
+        top: 5%;
+        left: 30%;
+        width: 60px;
+    }
+    .toggle.two {
+        position: fixed;
+        top: 5%;
+        left: 60%;
+        width: 60px;
+    }
+  }
+
+
+
+
