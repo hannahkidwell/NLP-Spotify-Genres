@@ -7,7 +7,6 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>ML in Spotify Generes</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,300;0,700;0,900;1,900&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/main.css">
   <script type="text/javascript" src="js/fusioncharts.js"></script>
@@ -18,8 +17,8 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12 jumbotron light text-center">
-        <h1>Using Lyrics and ML on Spotify Spotify Genres</h1>
-        <p>Use the interactive charts below to explore the datasets</p>
+        <h1>Using Lyrics and ML on Spotify Genres & Moods</h1>
+        <p>Use the interactive charts below to explore the datasets.</p>
       </div>
     <a href="index.html">
       <div class="toggle">
@@ -47,8 +46,8 @@
       <div class=""><embed type="text/html" src="data-viz/light/average-words-unique-bar.html" width="100%" height="500px"></div>
     </div>
     <div class="col-md-5 no-col-padding">
-      <div class="dark box">
-        <h2 class="light-text">Low unique words has a correlation to Spotify's popularity rating.</h2>
+      <div class="light box">
+        <h2 class="dark-text">Low unique words has a correlation to Spotify's popularity rating.</h2>
         <p>Songs with the lowest 25% popularities tend to have the lowest average unique word count.</p>
         <p class="small-text">
           Country, pop and romance tend to score higher even with average word counts, 
@@ -62,7 +61,7 @@
         <div class=""><embed type="text/html" src="data-viz/light/amount_words_pie.html" width="100%" height="600px"></div>
       </div>
       <div class="col-md-5 no-col-padding center">
-        <div class="dark box">
+        <div class="light box">
           <h3 class="dark-text">Some unique word distributions by genre breakdown.</h3>
           <p>Top 3 genres with the highest average unique word counts is Hiphop, R&B, and Classical. 
             Although Classical has the least amout of words by genre, you get more unique words than most other categories.</p>
@@ -73,7 +72,7 @@
 
     <div class="row">
       <div class="col-md-9 col-sm-7 col-xs-12 no-col-padding center">
-        <div class="dark box">
+        <div class="light box">
           <h3 class="dark-text"> If you like classical you might like jazz and metal, and if you like hiphop maybe you’ll like county too? 
             </h3>
             <ul style="font-size:larger;">
@@ -127,9 +126,9 @@
           </table> 
         </div>
         <div class="col-md-12 no-col-padding">
-          <h4 class="dark-text margin">Country songs sing about love more than Pop, RnB and Romance. <span style="font-weight: 200;line-height:1.5;">(we'll blame Taylor Swift)</span></h4>
-          <p style="font-size:larger;">Most Genre’s have unique top words of their own. However. 'know' is in the top ten words for <u>every genre except funk</u> (maybe including this will boost it’s popularity?<br>  
-            'Like' and 'love are in the top ten words for 11 out of 14 genres.. most songs are about loving (or at least liking) it seems. 
+          <h4 class="dark-text margin">Country songs sing about love more than Pop, RnB and Romance. <span style="font-weight: 200;line-height:1.5;"><br>(we'll blame Taylor Swift)</span></h4>
+          <p style="font-size:larger;">Most genre’s have unique top words of their own. However, 'know' is in the top ten words for <u>every genre except funk</u>.<br>
+            'Like' and 'love are in the top ten words for 11 out of 14 genres... most songs are about loving (or at least liking) it seems. 
             </p>
           <embed type="text/html" src="data-viz/light/top-words.html" width="100%" height="400px">
         </div>
