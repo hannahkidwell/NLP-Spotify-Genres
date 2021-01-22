@@ -40,7 +40,7 @@ We furthermore improved the model's accuracy by removing songs where the artist'
 
 ### Explanation of model choice
 - We are using a random forest model because it:
-  - Allows for feature ranking, which we can use in order to eliminate features that have little impact on the output of our model
+  - Allows for feature ranking, used to eliminate lower ranked features
   - Runs efficiently on large datasets
   - Is robust to outliers
 - One limitation of this model has been accuractely prediciting similar genres
@@ -52,7 +52,7 @@ We furthermore improved the model's accuracy by removing songs where the artist'
 - We trained the model using the scaled X training set and the y training set with 500 estimators and a random state of 78
   - The scaled X training set contained the audio features and word stems
   - The y training set contained the category id
-- To further train the model, I can pull down more songs from the Spotify and Genius APIs
+- To further train the model, we can pull down more songs from the Spotify and Genius APIs
 
 ### How accurate, precise, and sensitive is the model?
 - The model's accuracy using the entire dataset is 51.6%
@@ -71,19 +71,21 @@ We furthermore improved the model's accuracy by removing songs where the artist'
   - The soul genre had the lowest sensitivity of 18% 
 
 ## Link to Assigned Duties
-Here is the link to an excel spreadsheet with what each group member worked on: https://drive.google.com/file/d/1yFzIDPxS48h5qYXb1bhgNAEhpdfMf9BK/view?usp=sharing
+Here is the link to an excel spreadsheet with what each group member worked on: 
+https://drive.google.com/file/d/1yFzIDPxS48h5qYXb1bhgNAEhpdfMf9BK/view?usp=sharing
 
 ## Communication Log
 We have been meeting using Discord and messaging through Slack or Discord to coordinate the projects plans. We will continue to meet Tuesdays, Thursdays, and Sundays given group availabliliy. 
 - Meeting 11/20 in class
 - Meeting 11/24 in class
 - Meeting 12/1 on Zoom
-- Meeting 12/3 in class class
+- Meeting 12/3 in class
 - Meeting 12/6 on Discord
 - Meeting 12/8 in class
 - Meeting 12/10 in class
-- Meeting 12/12 on discord
+- Meeting 12/12 on Discord
 - Meeting 12/15 in class
 - Meeting 12/17 in class
-- Meeting 12/19 on discord
-- Next Meeting 12/22 TENATIVE
+- Meeting 12/19 on Discord
+- Meeting 1/14 in class (Presentation)
+- Meeting 1/16 on Zoom
