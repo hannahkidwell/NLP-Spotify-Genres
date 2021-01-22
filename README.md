@@ -1,7 +1,10 @@
 # UCB Final Project: Predicting Musical Genres
 
 ## Project Outline
-Due to our group's common interest in music, we chose the topic of predicting musical genres. We decided to create a machine learing model that would predict a song's genre based on lyrics and audio features. In order to store the data used to run model, we created a SQL database containing everything pulled from the Spotify and Genius APIs. The results of the analysis are clearly conveyed in the dashboard linked below.
+- Due to our common interest in music, our group chose the topic of predicting musical genres
+- We decided to create a random forest model that predicts a song's genre based on lyrical term frequencies and audio features
+- In order to store the data used to run model, we created a SQL database containing everything pulled from the Spotify and Genius APIs
+- The results of the analysis are clearly conveyed in the dashboard linked below
 
 ## Link to Dashboard
  http://thedashboard.xyz/
