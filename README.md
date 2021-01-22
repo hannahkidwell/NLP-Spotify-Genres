@@ -1,26 +1,13 @@
-# Final Project Outline, Assigned Duties, & Communication Guide
-Link to Dashboard: http://thedashboard.xyz/
+# UCB Final Project: Predicting Musical Genres
+
+## Project Outline
+Due to our group's common interest in music, we chose the topic of predicting musical genres. We decided to create a machine learing model that would predict a song's genre based on lyrics and audio features. In order to store the data used to run model, we created a SQL database containing everything pulled from the Spotify and Genius APIs. The results of the analysis are clearly conveyed in the dashboard linked below.
+
+## Link to Dashboard
+ http://thedashboard.xyz/
 
 ## Link to Google Slides Presentation
 Here is the link to the presentation: https://docs.google.com/presentation/d/1nddvQA9pJ1J52MaG6unWViKxsb_lgtQ5arq4Pr88yl0/edit?usp=sharing 
-
-## Link to Assigned Duties
-Here is the link to an excel spreadsheet with what each group member worked on: https://drive.google.com/file/d/1yFzIDPxS48h5qYXb1bhgNAEhpdfMf9BK/view?usp=sharing
-
-## Communication Log
-We have been meeting using Discord and messaging through Slack or Discord to coordinate the projects plans. We will continue to meet Tuesdays, Thursdays, and Sundays given group availabliliy. 
-- Meeting 11/20 in class
-- Meeting 11/24 in class
-- Meeting 12/1 on Zoom
-- Meeting 12/3 in class class
-- Meeting 12/6 on Discord
-- Meeting 12/8 in class
-- Meeting 12/10 in class
-- Meeting 12/12 on discord
-- Meeting 12/15 in class
-- Meeting 12/17 in class
-- Meeting 12/19 on discord
-- Next Meeting 12/22 TENATIVE
 
 ## Machine Learning Model Overview
 ### Description of preliminary data preprocessing
@@ -79,3 +66,21 @@ We furthermore improved the model's accuracy by removing songs where the artist'
 - The model's weighted average recall score was 0.71
   - The country genre had the highest sensitivity of 94%
   - The soul genre had the lowest sensitivity of 18% 
+
+## Link to Assigned Duties
+Here is the link to an excel spreadsheet with what each group member worked on: https://drive.google.com/file/d/1yFzIDPxS48h5qYXb1bhgNAEhpdfMf9BK/view?usp=sharing
+
+## Communication Log
+We have been meeting using Discord and messaging through Slack or Discord to coordinate the projects plans. We will continue to meet Tuesdays, Thursdays, and Sundays given group availabliliy. 
+- Meeting 11/20 in class
+- Meeting 11/24 in class
+- Meeting 12/1 on Zoom
+- Meeting 12/3 in class class
+- Meeting 12/6 on Discord
+- Meeting 12/8 in class
+- Meeting 12/10 in class
+- Meeting 12/12 on discord
+- Meeting 12/15 in class
+- Meeting 12/17 in class
+- Meeting 12/19 on discord
+- Next Meeting 12/22 TENATIVE
