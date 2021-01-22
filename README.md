@@ -24,48 +24,24 @@ We have been meeting using Discord and messaging through Slack or Discord to coo
 
 ## Machine Learning Model Overview
 ### Description of preliminary data preprocessing
-- In the first notebook, clean_spotify_data.ipynb, we used the Spotify API to create a DataFrame with artist, genre, and audio feature information for about 14,000 songs
-- In the next notebook, clean_lyricsgenius_data.ipynb, we used the Genius API to add a column of lyrics
-  - The runtime of looking up the lyrics using the API was about 10 hours
-  - Since lyrics were not found for all songs, the updated DataFrame contains about 9,000 songs
-    - Before saving the DataFrame, we cleaned the lyrics by removing unnecessary symbols and spaces
-- The PySpark_NLP.ipynb filters the data based on 3 new columns and creates a DataFrame of the top co-occurring words
-  - A category_id column of encoded genres is added
-  - Instrumental songs are removed
-  - A column of tokenized lyrics without stop words is added
-  - A language column is added
-  - Songs with no language found and songs with one language found that is not English are removed
-  - The total runtime to create the DataFrame of co-occurring words was about 1.5 hours
-- term_frequencies.ipynb was the last step towards creating DataFrames that can be used for the ML model
-  - We created a list of all words from the filtered lyrics column
-  - After removing non alphabetic words from that list, we then created a new DataFrame with all of the unique words used as columns
-  - Filling the DataFrame with term frequencies took about 68 minutes
-  - Then we saved the DataFrame and a filtered version of it without columns of words that appeared the least
-- cooccurring_term_frequencies.ipynb created two more DataFrames that can be used for the ML model
-  - Added frequencies of the top co-occurring words
+- First we used the Spotify and Genius APIs to create a CSV file filled with song data
+- The next step was to filter the songs based on language and clean all of the song lyrics
+- Then we created a natural language processing pipeline that tokenized the lyrics and removed stop words
+- Lastly we created a DataFrame containing the term frequenices of each song
 
 ### Desciption of preliminary data analysis
-- The top_words.ipynb file creates a DataFrame of the top ten words for each genre
-  - From the total 140 top ten words from each of the 14 genres, 35 were unique
-  - 15 out of all the top ten words for each genre are unique to one genre
-  - 'im' is in the top ten words for every genre
-  - '?', 'dont', and 'know' are in the top ten words for 13 out of 14 genres
-- The top_cooccurring_words.ipynb file creates a DataFrame of the top ten co-occurring words for each genre
-  - From the total 140 top ten co-occurring words from each of the 14 genres, 43 were unique
-  - 25 of the top ten co-occurring words are unique to one genre
-  - 'dont know' and 'oh oh' are in the top ten co-occurring words for 13 out of 14 genres
-- The genre_by_word_count.ipynb file creates DataFrames of word count distributions for each genre
-  - The hiphop genre had the highest mean word count and the highest mean unique word count
-  - The blues genre has the lowest mean word count and the lowest mean unique word count
-- The popularity_by_word_count.ipynb file creates DataFrames of word count distributions for each quartile of the songs based on popularity
-  - The songs with the lowest 25% popularities have the lowest mean word count and the lowest mean unique word count
-  - The songs with the highest 25% popularities have the highest mean word count 
+- Looking at top words and word count distributions by genre and popularity we created DataFrames for the following:
+  - Top ten words for each genre
+  - Top ten co-occurring words for each genre
+  - Word count distributions for each genre
+  - Word count distributions for each quartile of songs based on popularity
 
 ### Description of preliminary feature engineering and preliminary feature selection
-- All of the DataFrames that we created to use for the ML model have columns of song names, artist names, category name and ids, genres, audio features, and word frequencies
-- We defined my features set as the DataFrame after dropping the song names, artist names, category name and ids, and genres so that all the columns are filled with numerical audio features or term frequencies
-- We found that the model performed best when using the filtered versions of my DataFrames where we removed the words that appeared the least
+- We defined the features set (X) as the numerical audio features and term frequencies columns
+- The target set (y) was the genres of the songs
+- We found that the model performed best when using a filtered version of our DataFrame without the words that appeared the least
 - Futhermore, we removed songs that did not have matching categories and genres 
+We furthermore improved the model's accuracy by removing songs where the artist's genres did not match the song's category
 
 ### Description of how data was split into training and testing sets
 - The data was split into training and testing sets using the train_test_split method from the sklearn library
